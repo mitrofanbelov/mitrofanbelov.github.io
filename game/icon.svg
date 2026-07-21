@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="54" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0e3341"/>
+      <stop offset="1" stop-color="#07131f"/>
+    </linearGradient>
+    <linearGradient id="bird" x1="17" y1="18" x2="47" y2="46" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff6bd"/>
+      <stop offset=".52" stop-color="#ffd05c"/>
+      <stop offset="1" stop-color="#ef7652"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#bg)"/>
+  <path d="M10 45c12-2 18-8 24-18 4 11 9 17 20 19" fill="none" stroke="#74efd5" stroke-opacity=".35" stroke-width="3" stroke-linecap="round"/>
+  <path d="M16 33c5-10 13-16 25-13 7 2 12 7 14 13-8-3-15-3-20 2-6 6-12 9-19 8 3-3 4-6 0-10Z" fill="url(#bird)"/>
+  <circle cx="43" cy="27" r="2.4" fill="#0a2233"/>
+  <path d="m50 31 10 3-9 5" fill="#ff8c55"/>
+</svg>
